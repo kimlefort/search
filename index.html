@@ -6,11 +6,24 @@
     <title>Google Search</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <form action="https://www.google.com/search" method="get">
+<body>  
+    <div class="nav">
+        <a href="advanced_search.html">Advanced Search </a>
+        <a href="google_images.html">Images </a>
+    </div>
+
+    <div class="centered">
+        <h1>Google Search CS50</h1>
+    </div>
+    
+    <form class="centered" action="https://www.google.com/search" method="get">
         <input type="text" name="q">
+        <center>
         <input type="submit" value="Google Search">
+        <input type="submit" value="I'm Feeling Lucky" name="btnI"> 
+        </center>
     </form>
+    
 </body>
 </html>
 
