@@ -6,11 +6,21 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>CS50</h1>
+    <hr>
+    <h2>Advanced Search</h2>
     <form action="https://google.com/search" method="get" name="f">
-        <input type="text" name="as_q">
-        <input type="text" name="as_epq">
-        <input type="text" name="as_eq">
-        <input type="text" name="as_sitesearch">
+        <div>
+            <h3>All of these words:</h3>
+            <input type="text" name="as_q">
+        </div>
+        <br>
+        <h3>Exact phrase:</h3>
+        <input type="text" name="as_epq"> <br>
+        <h3>Any of these words:</h3>
+        <input type="text" name="as_eq"> <br>
+        <h3>Only from this website:</h3>
+        <input type="text" name="as_sitesearch"><br>
 
         <input type="submit" value="Advanced Search">
     </form>
