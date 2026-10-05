@@ -1,28 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <h1>CS50</h1>
     <hr>
+    <div class="nav">
+        <a href="index.html">Google Search </a>
+    </div>
     <h2>Advanced Search</h2>
     <form action="https://google.com/search" method="get" name="f">
-        <div>
-            <h3>All of these words:</h3>
-            <input type="text" name="as_q">
-        </div>
-        <br>
-        <h3>Exact phrase:</h3>
-        <input type="text" name="as_epq"> <br>
-        <h3>Any of these words:</h3>
-        <input type="text" name="as_eq"> <br>
-        <h3>Only from this website:</h3>
-        <input type="text" name="as_sitesearch"><br>
 
-        <input type="submit" value="Advanced Search">
+        <div>
+            <label>All of these words:</label>
+            <input type="text" name="as_q"> <br>
+
+            <label>Exact phrase:</label>
+            <input type="text" name="as_epq"> <br> 
+
+            <label>Any of these words:</label>
+            <input type="text" name="as_oq"> <br>
+
+            <label>None of these words:</label>
+            <input type="text" name="as_eq"> <br>
+
+            <label>Only from this website:</label>
+            <input type="text" name="as_sitesearch"> <br>
+
+            <input type="submit" value="Advanced Search">
+
+        </div>
+
     </form>
 </body>
+
 </html>
